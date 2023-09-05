@@ -1,0 +1,80 @@
+QMainWindow{
+    background-image: url(images/background_paper.png);
+    background-position: center;
+}
+
+QPushButton#btn_iniciar,#btn_reintentar{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color:rgb(247, 240, 183);
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+QPushButton#btn_iniciar:hover,#btn_reintentar:hover{
+    background-color:rgb(253, 238, 126);
+}
+
+QPushButton#btn_iniciar:pressed,#btn_reintentar:pressed{
+    background-color:rgb(252, 249, 227);
+}
+
+QPushButton#btn_siguiente{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color:rgb(247, 240, 183);
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom:100px;
+}
+
+QPushButton#btn_siguiente:hover{
+    background-color:rgb(253, 238, 126);
+}
+
+QPushButton#btn_siguiente:pressed{
+    background-color:rgb(252, 249, 227);
+}
+
+
+QPushButton#btn_insertar{
+    background-color:rgb(247, 240, 183);
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+QPushButton#btn_insertar:hover{
+    background-color:rgb(253, 238, 126);
+}
+
+QPushButton#btn_insertar:pressed{
+    background-color:rgb(252, 249, 227);
+}
+
+QLineEdit#txt_palabra_frase{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color:rgba(0,0,0,0);
+    border-radius: 5px;
+    border-bottom:2px solid #000;
+    border-top: 0px solid #000;
+    border-right: 0px solid #000;
+    border-left: 0px solid #000;
+
+}
+
+QLineEdit#txt_letra{
+    background-color:rgba(0,0,0,0);
+    border-radius: 5px;
+    border-bottom:2px solid #000;
+    border-top: 0px solid #000;
+    border-right: 0px solid #000;
+    border-left: 0px solid #000;
+}
+
+QMessageBox{
+    background-color: rgb(224, 215, 144);
+}
